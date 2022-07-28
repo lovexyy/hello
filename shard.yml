@@ -1,0 +1,17 @@
+name: hello
+version: 0.1.0
+crystal: ~> 0.35
+
+authors:
+  - jack
+
+targets:
+  hello:
+    main: src/hello.cr
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    version: 0.27.0
